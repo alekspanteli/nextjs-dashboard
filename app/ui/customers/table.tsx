@@ -1,7 +1,7 @@
-import Image from 'next/image'
-import { lusitana } from '@/app/ui/fonts'
-import Search from '@/app/ui/search'
-import { FormattedCustomersTable } from '@/app/lib/definitions'
+import Image from 'next/image';
+import { FormattedCustomersTable } from '@/app/lib/definitions';
+import { lusitana } from '@/app/ui/fonts';
+import Search from '@/app/ui/search';
 
 export default async function CustomersTable({ customers }: { customers: FormattedCustomersTable[] }) {
   return (
@@ -99,5 +99,5 @@ export default async function CustomersTable({ customers }: { customers: Formatt
         </div>
       </div>
     </div>
-  )
+  );
 }
